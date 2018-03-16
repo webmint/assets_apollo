@@ -1,0 +1,12 @@
+//Styles for sidebar
+.app-sidebar {
+  background: darken($white, 5.49)!important;
+
+  &.navigation-drawer--open {
+    overflow: hidden;
+    padding-bottom: 83px;
+    width: 100% !important;
+  }
+}
+
+

@@ -1,0 +1,49 @@
+//Additional classes
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.chambray {
+  background: $chambray!important;
+}
+
+.apple {
+  background: $apple!important;
+}
+
+// Custom icons classes
+
+[class^="iconm-"], [class*=" iconm-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.iconm-burger:before {
+  content: "\e900";
+  color: #fff;
+}
+.iconm-search:before {
+  content: "\e901";
+  color: #fff;
+  font-size: 21px;
+}
+.iconm-close:before {
+  content: "\e902";
+  color: #fff;
+}
+.iconm-wellhead:before {
+  content: "\e903";
+  color: #fff;
+}

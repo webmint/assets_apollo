@@ -1,0 +1,32 @@
+.sidebar-menu {
+  height: 83px;
+  &__list {
+    padding: 0;
+  }
+
+  &__list-tile {
+    height: 59px;
+
+    .list__tile {
+      height: 59px!important;
+    }
+  }
+
+  &__list-tile-title {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  &__list-tile-subtitle {
+    font-size: 11px;
+    line-height: 13px;
+  }
+
+  &__copyright {
+    color: darken($gray, 14.12);
+    font-size: 10px;
+    line-height: 12px;
+    padding: 7px 0;
+    text-align: center;
+  }
+}

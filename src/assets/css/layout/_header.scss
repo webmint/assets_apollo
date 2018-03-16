@@ -1,0 +1,20 @@
+//General web-site header styles
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 19px 8px;
+  width: 100%;
+
+  &__button {
+    margin: 0;
+  }
+
+  &__view-name {
+    color: $white;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+    text-align: center;
+  }
+}
+
